@@ -26,7 +26,7 @@
     <groupId>org.fourthline.cling</groupId>
     <artifactId>cling</artifactId>
     <packaging>pom</packaging>
-    <version>2.0.1</version>
+    <version>dev</version>
 
     <modules>
         <module>core</module>
@@ -83,6 +83,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
+
+        <cling.version>2.0.1</cling.version>
+        <cling-core.version>${cling.version}</cling-core.version>
+        <cling-demo.version>${cling.version}</cling-demo.version>
+        <cling-demo-android.version>${cling.version}</cling-demo-android.version>
+        <cling-demo-android-browser.version>${cling.version}</cling-demo-android-browser.version>
+        <cling-demo-android-light.version>${cling.version}</cling-demo-android-light.version>
+        <cling-distribution.version>${cling.version}</cling-distribution.version>
+        <cling-mediarenderer.version>${cling.version}</cling-mediarenderer.version>
+        <cling-support.version>${cling.version}</cling-support.version>
+        <cling-website.version>${cling.version}</cling-website.version>
+        <cling-workbench.version>${cling.version}</cling-workbench.version>
 
         <seamless.version>1.1.1</seamless.version>
         <lemma.version>1.1.1</lemma.version>

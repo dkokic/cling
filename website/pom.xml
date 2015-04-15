@@ -7,11 +7,12 @@
     <parent>
         <artifactId>cling</artifactId>
         <groupId>org.fourthline.cling</groupId>
-        <version>2.0.1</version>
+        <version>dev</version>
     </parent>
 
     <name>Cling Website</name>
     <artifactId>cling-website</artifactId>
+    <version>${cling-website.version}</version>
     <packaging>pom</packaging>
 
     <build>

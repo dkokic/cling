@@ -5,11 +5,12 @@
     <parent>
         <groupId>org.fourthline.cling</groupId>
         <artifactId>cling-demo-android</artifactId>
-        <version>2.0.1</version>
+        <version>${cling-demo-android.version}</version>
     </parent>
 
 	<name>Cling Demo Android Browser</name>
 	<artifactId>cling-demo-android-browser</artifactId>
+    <version>${cling-demo-android-browser.version}</version>
     <packaging>apk</packaging>
 
     <build>
